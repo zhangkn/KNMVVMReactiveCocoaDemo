@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "MRCLoginViewModel.h"
 @interface AppDelegate ()
 
 @end
@@ -17,8 +17,40 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //1、注册registerNavigationHooks
+    self.services = [[MRCViewModelServicesImpl alloc] init];
+    self.navigationControllerStack = [[MRCNavigationControllerStack alloc] initWithServices:self.services];
+
+//    2、创建window
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [self.services resetRootViewModel:[self createInitialViewModel]];
+    
+    [self.window makeKeyAndVisible];
+    
+    
+    
     return YES;
 }
+
+
+
+- (MRCViewModel *)createInitialViewModel {
+    // The user has logged-in.
+    if ([SSKeychain rawLogin].isExist && [SSKeychain accessToken].isExist) {
+        // Some OctoKit APIs will use the `login` property of `OCTUser`.
+        OCTUser *user = [OCTUser mrc_userWithRawLogin:[SSKeychain rawLogin] server:OCTServer.dotComServer];
+        
+        OCTClient *authenticatedClient = [OCTClient authenticatedClientWithUser:user token:[SSKeychain accessToken]];
+        self.services.client = authenticatedClient;
+        
+        //        return [[MRCHomepageViewModel alloc] initWithServices:self.services params:nil];
+        return nil;
+    } else {
+        return [[MRCLoginViewModel alloc] initWithServices:self.services params:nil];
+    }
+}
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {

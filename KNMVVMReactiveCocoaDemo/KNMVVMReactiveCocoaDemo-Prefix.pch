@@ -1,0 +1,82 @@
+//
+//  KNMVVMReactiveCocoaDemo-Prefix.pch
+//  KNMVVMReactiveCocoaDemo
+//
+//  Created by devzkn on 31/07/2017.
+//  Copyright © 2017 hisun. All rights reserved.
+//
+
+#ifndef KNMVVMReactiveCocoaDemo_Prefix_pch
+#define KNMVVMReactiveCocoaDemo_Prefix_pch
+
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <OctoKit/OctoKit.h>
+#import "MRCConstant.h"
+
+#import "UIView+Borders.h"
+#import "MRCViewModel.h"
+#import "MRCErrors.h"
+#import <Mantle/Mantle.h>
+
+
+
+#import "MRCUtil.h"
+#import "MRCConfig.h"
+#import "MRCErrors.h"
+#import <OctoKit/OctoKit.h>
+#import "SSKeychain.h"
+#import "MBProgressHUD.h"
+#import "IQKeyboardManager.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <SDWebImage/UIButton+WebCache.h>
+#import "MRCViewModelServices.h"
+#import "OCTUser+MRCPersistence.h"
+#import "OCTRepository+MRCPersistence.h"
+#import <objc/runtime.h>
+#import <AFNetworking/AFNetworking.h>
+#import "UIImage+MRCOcticons.h"
+#import "SVPullToRefresh.h"
+#import "CBStoreHouseRefreshControl.h"
+#import "UIView+Borders.h"
+#import "MKNetworkKit.h"
+#import "WebViewJavascriptBridge.h"
+#import "OCTRef+MRCUtil.h"
+#import "SSKeychain+MRCUtil.h"
+#import "UIImage+Octicons.h"
+#import "TWMessageBarManager.h"
+#import "UIScrollView+EmptyDataSet.h"
+#import "Ono.h"
+#import "UMSocial.h"
+#import "FMDB.h"
+//#import "MRCSearch.h"
+#import "OCTClient+MRCRepository.h"
+#import "OCTClient+MRCUser.h"
+#import "UMSocialWechatHandler.h"
+#import "UMSocialSinaHandler.h"
+#import "UMSocialQQHandler.h"
+#import "UIImageView+UIActivityIndicatorForSDWebImage.h"
+#import "MRCMemoryCache.h"
+//#import "FMDatabaseQueue+MRCHelper.h"
+#import "MRCReactiveView.h"
+#import "NSString+Octicons.h"
+#import "NSURL+MRCLink.h"
+#import "NSMutableAttributedString+MRCEvents.h"
+#import "OCTEvent+MRCAttributedString.h"
+#import "OCTRef+MRCAdditions.h"
+#import "GPUImage.h"
+#import "OCTEvent+MRCPersistence.h"
+#import <YYKit/YYKit.h>
+//#import "YYCache+MRCAdditions.h"
+#import "FMDatabaseQueue+MRCHelper.h"
+
+
+#endif
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* KNMVVMReactiveCocoaDemo_Prefix_pch */
