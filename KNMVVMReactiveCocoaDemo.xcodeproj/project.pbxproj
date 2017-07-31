@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1FB20ED1F2EBFC70092738E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FB20EC1F2EBFC70092738E /* main.m */; };
+		E1FB20F01F2EBFC70092738E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FB20EF1F2EBFC70092738E /* AppDelegate.m */; };
+		E1FB20F31F2EBFC70092738E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FB20F21F2EBFC70092738E /* ViewController.m */; };
+		E1FB20F61F2EBFC70092738E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1FB20F41F2EBFC70092738E /* Main.storyboard */; };
+		E1FB20F81F2EBFC70092738E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1FB20F71F2EBFC70092738E /* Assets.xcassets */; };
+		E1FB20FB1F2EBFC70092738E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1FB20F91F2EBFC70092738E /* LaunchScreen.storyboard */; };
+		E1FB21061F2EBFC70092738E /* KNMVVMReactiveCocoaDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FB21051F2EBFC70092738E /* KNMVVMReactiveCocoaDemoTests.m */; };
+		E1FB21111F2EBFC70092738E /* KNMVVMReactiveCocoaDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FB21101F2EBFC70092738E /* KNMVVMReactiveCocoaDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1FB21021F2EBFC70092738E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1FB20E01F2EBFC70092738E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1FB20E71F2EBFC70092738E;
+			remoteInfo = KNMVVMReactiveCocoaDemo;
+		};
+		E1FB210D1F2EBFC70092738E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1FB20E01F2EBFC70092738E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1FB20E71F2EBFC70092738E;
+			remoteInfo = KNMVVMReactiveCocoaDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1FB20E81F2EBFC70092738E /* KNMVVMReactiveCocoaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KNMVVMReactiveCocoaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1FB20EC1F2EBFC70092738E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1FB20EE1F2EBFC70092738E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1FB20EF1F2EBFC70092738E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1FB20F11F2EBFC70092738E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E1FB20F21F2EBFC70092738E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E1FB20F51F2EBFC70092738E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1FB20F71F2EBFC70092738E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1FB20FA1F2EBFC70092738E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1FB20FC1F2EBFC70092738E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1FB21011F2EBFC70092738E /* KNMVVMReactiveCocoaDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KNMVVMReactiveCocoaDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1FB21051F2EBFC70092738E /* KNMVVMReactiveCocoaDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNMVVMReactiveCocoaDemoTests.m; sourceTree = "<group>"; };
+		E1FB21071F2EBFC70092738E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1FB210C1F2EBFC70092738E /* KNMVVMReactiveCocoaDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KNMVVMReactiveCocoaDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1FB21101F2EBFC70092738E /* KNMVVMReactiveCocoaDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNMVVMReactiveCocoaDemoUITests.m; sourceTree = "<group>"; };
+		E1FB21121F2EBFC70092738E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1FB20E51F2EBFC70092738E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FB20FE1F2EBFC70092738E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FB21091F2EBFC70092738E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1FB20DF1F2EBFC70092738E = {
+			isa = PBXGroup;
+			children = (
+				E1FB20EA1F2EBFC70092738E /* KNMVVMReactiveCocoaDemo */,
+				E1FB21041F2EBFC70092738E /* KNMVVMReactiveCocoaDemoTests */,
+				E1FB210F1F2EBFC70092738E /* KNMVVMReactiveCocoaDemoUITests */,
+				E1FB20E91F2EBFC70092738E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1FB20E91F2EBFC70092738E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1FB20E81F2EBFC70092738E /* KNMVVMReactiveCocoaDemo.app */,
+				E1FB21011F2EBFC70092738E /* KNMVVMReactiveCocoaDemoTests.xctest */,
+				E1FB210C1F2EBFC70092738E /* KNMVVMReactiveCocoaDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1FB20EA1F2EBFC70092738E /* KNMVVMReactiveCocoaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E1FB20EE1F2EBFC70092738E /* AppDelegate.h */,
+				E1FB20EF1F2EBFC70092738E /* AppDelegate.m */,
+				E1FB20F11F2EBFC70092738E /* ViewController.h */,
+				E1FB20F21F2EBFC70092738E /* ViewController.m */,
+				E1FB20F41F2EBFC70092738E /* Main.storyboard */,
+				E1FB20F71F2EBFC70092738E /* Assets.xcassets */,
+				E1FB20F91F2EBFC70092738E /* LaunchScreen.storyboard */,
+				E1FB20FC1F2EBFC70092738E /* Info.plist */,
+				E1FB20EB1F2EBFC70092738E /* Supporting Files */,
+			);
+			path = KNMVVMReactiveCocoaDemo;
+			sourceTree = "<group>";
+		};
+		E1FB20EB1F2EBFC70092738E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1FB20EC1F2EBFC70092738E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1FB21041F2EBFC70092738E /* KNMVVMReactiveCocoaDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1FB21051F2EBFC70092738E /* KNMVVMReactiveCocoaDemoTests.m */,
+				E1FB21071F2EBFC70092738E /* Info.plist */,
+			);
+			path = KNMVVMReactiveCocoaDemoTests;
+			sourceTree = "<group>";
+		};
+		E1FB210F1F2EBFC70092738E /* KNMVVMReactiveCocoaDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1FB21101F2EBFC70092738E /* KNMVVMReactiveCocoaDemoUITests.m */,
+				E1FB21121F2EBFC70092738E /* Info.plist */,
+			);
+			path = KNMVVMReactiveCocoaDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1FB20E71F2EBFC70092738E /* KNMVVMReactiveCocoaDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1FB21151F2EBFC70092738E /* Build configuration list for PBXNativeTarget "KNMVVMReactiveCocoaDemo" */;
+			buildPhases = (
+				E1FB20E41F2EBFC70092738E /* Sources */,
+				E1FB20E51F2EBFC70092738E /* Frameworks */,
+				E1FB20E61F2EBFC70092738E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KNMVVMReactiveCocoaDemo;
+			productName = KNMVVMReactiveCocoaDemo;
+			productReference = E1FB20E81F2EBFC70092738E /* KNMVVMReactiveCocoaDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1FB21001F2EBFC70092738E /* KNMVVMReactiveCocoaDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1FB21181F2EBFC70092738E /* Build configuration list for PBXNativeTarget "KNMVVMReactiveCocoaDemoTests" */;
+			buildPhases = (
+				E1FB20FD1F2EBFC70092738E /* Sources */,
+				E1FB20FE1F2EBFC70092738E /* Frameworks */,
+				E1FB20FF1F2EBFC70092738E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1FB21031F2EBFC70092738E /* PBXTargetDependency */,
+			);
+			name = KNMVVMReactiveCocoaDemoTests;
+			productName = KNMVVMReactiveCocoaDemoTests;
+			productReference = E1FB21011F2EBFC70092738E /* KNMVVMReactiveCocoaDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1FB210B1F2EBFC70092738E /* KNMVVMReactiveCocoaDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1FB211B1F2EBFC70092738E /* Build configuration list for PBXNativeTarget "KNMVVMReactiveCocoaDemoUITests" */;
+			buildPhases = (
+				E1FB21081F2EBFC70092738E /* Sources */,
+				E1FB21091F2EBFC70092738E /* Frameworks */,
+				E1FB210A1F2EBFC70092738E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1FB210E1F2EBFC70092738E /* PBXTargetDependency */,
+			);
+			name = KNMVVMReactiveCocoaDemoUITests;
+			productName = KNMVVMReactiveCocoaDemoUITests;
+			productReference = E1FB210C1F2EBFC70092738E /* KNMVVMReactiveCocoaDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1FB20E01F2EBFC70092738E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = hisun;
+				TargetAttributes = {
+					E1FB20E71F2EBFC70092738E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = FUV5KWMMAV;
+						ProvisioningStyle = Automatic;
+					};
+					E1FB21001F2EBFC70092738E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = FUV5KWMMAV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E1FB20E71F2EBFC70092738E;
+					};
+					E1FB210B1F2EBFC70092738E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = FUV5KWMMAV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E1FB20E71F2EBFC70092738E;
+					};
+				};
+			};
+			buildConfigurationList = E1FB20E31F2EBFC70092738E /* Build configuration list for PBXProject "KNMVVMReactiveCocoaDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1FB20DF1F2EBFC70092738E;
+			productRefGroup = E1FB20E91F2EBFC70092738E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1FB20E71F2EBFC70092738E /* KNMVVMReactiveCocoaDemo */,
+				E1FB21001F2EBFC70092738E /* KNMVVMReactiveCocoaDemoTests */,
+				E1FB210B1F2EBFC70092738E /* KNMVVMReactiveCocoaDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1FB20E61F2EBFC70092738E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1FB20FB1F2EBFC70092738E /* LaunchScreen.storyboard in Resources */,
+				E1FB20F81F2EBFC70092738E /* Assets.xcassets in Resources */,
+				E1FB20F61F2EBFC70092738E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FB20FF1F2EBFC70092738E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FB210A1F2EBFC70092738E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1FB20E41F2EBFC70092738E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1FB20F31F2EBFC70092738E /* ViewController.m in Sources */,
+				E1FB20F01F2EBFC70092738E /* AppDelegate.m in Sources */,
+				E1FB20ED1F2EBFC70092738E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FB20FD1F2EBFC70092738E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1FB21061F2EBFC70092738E /* KNMVVMReactiveCocoaDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FB21081F2EBFC70092738E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1FB21111F2EBFC70092738E /* KNMVVMReactiveCocoaDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1FB21031F2EBFC70092738E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1FB20E71F2EBFC70092738E /* KNMVVMReactiveCocoaDemo */;
+			targetProxy = E1FB21021F2EBFC70092738E /* PBXContainerItemProxy */;
+		};
+		E1FB210E1F2EBFC70092738E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1FB20E71F2EBFC70092738E /* KNMVVMReactiveCocoaDemo */;
+			targetProxy = E1FB210D1F2EBFC70092738E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1FB20F41F2EBFC70092738E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1FB20F51F2EBFC70092738E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1FB20F91F2EBFC70092738E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1FB20FA1F2EBFC70092738E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1FB21131F2EBFC70092738E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1FB21141F2EBFC70092738E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1FB21161F2EBFC70092738E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FUV5KWMMAV;
+				INFOPLIST_FILE = KNMVVMReactiveCocoaDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmcc.KNMVVMReactiveCocoaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E1FB21171F2EBFC70092738E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FUV5KWMMAV;
+				INFOPLIST_FILE = KNMVVMReactiveCocoaDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmcc.KNMVVMReactiveCocoaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E1FB21191F2EBFC70092738E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FUV5KWMMAV;
+				INFOPLIST_FILE = KNMVVMReactiveCocoaDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmcc.KNMVVMReactiveCocoaDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KNMVVMReactiveCocoaDemo.app/KNMVVMReactiveCocoaDemo";
+			};
+			name = Debug;
+		};
+		E1FB211A1F2EBFC70092738E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FUV5KWMMAV;
+				INFOPLIST_FILE = KNMVVMReactiveCocoaDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmcc.KNMVVMReactiveCocoaDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KNMVVMReactiveCocoaDemo.app/KNMVVMReactiveCocoaDemo";
+			};
+			name = Release;
+		};
+		E1FB211C1F2EBFC70092738E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FUV5KWMMAV;
+				INFOPLIST_FILE = KNMVVMReactiveCocoaDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmcc.KNMVVMReactiveCocoaDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KNMVVMReactiveCocoaDemo;
+			};
+			name = Debug;
+		};
+		E1FB211D1F2EBFC70092738E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FUV5KWMMAV;
+				INFOPLIST_FILE = KNMVVMReactiveCocoaDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmcc.KNMVVMReactiveCocoaDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KNMVVMReactiveCocoaDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1FB20E31F2EBFC70092738E /* Build configuration list for PBXProject "KNMVVMReactiveCocoaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1FB21131F2EBFC70092738E /* Debug */,
+				E1FB21141F2EBFC70092738E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1FB21151F2EBFC70092738E /* Build configuration list for PBXNativeTarget "KNMVVMReactiveCocoaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1FB21161F2EBFC70092738E /* Debug */,
+				E1FB21171F2EBFC70092738E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E1FB21181F2EBFC70092738E /* Build configuration list for PBXNativeTarget "KNMVVMReactiveCocoaDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1FB21191F2EBFC70092738E /* Debug */,
+				E1FB211A1F2EBFC70092738E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E1FB211B1F2EBFC70092738E /* Build configuration list for PBXNativeTarget "KNMVVMReactiveCocoaDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1FB211C1F2EBFC70092738E /* Debug */,
+				E1FB211D1F2EBFC70092738E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1FB20E01F2EBFC70092738E /* Project object */;
+}
